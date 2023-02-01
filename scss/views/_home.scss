@@ -1,0 +1,29 @@
+@use '../base/normalize';
+@use '../base/reset';
+@use '../layout/header';
+@use '../layout/footer';
+.container__main{
+    .main__hero{
+        height: 100vh;
+        background-image: url('../../images/fondo_mfcingenieria003.png');
+        background-size: cover;
+        background-position: top center;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        // margin: 0 10em;
+        .hero__information{
+            width: 30%;
+            margin-right: 5em;
+            .information__paragraph{
+                font-size: 1.6em;
+                // word-spacing: 1em;
+                text-align: justify;
+                text-shadow: 1px 1px 2px #000000;
+                color: #ffffff;
+                filter: drop-shadow(2px 4px 6px black);
+                padding-bottom: 1em;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.container__header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-items: start;
+    .header__logo{
+        padding: 0 1em;
+         .logo__img{
+            width: 15vw;
+        }
+    }
+}

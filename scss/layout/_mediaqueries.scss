@@ -1,0 +1,38 @@
+@media (max-width: 720px) {
+    .container{
+        .container__header {
+                .header__logo {
+                    .logo__img {
+                        width: 40vw;
+                    }
+                }
+        }
+        .container__main{
+            .main__hero{
+                .hero__information{
+                    // display: none;
+                    width: 100%;
+                    // height: 100vh;
+                    margin: 0 2em 5em 2em;
+                    .information__paragraph {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+        .container__footer{
+            .footer__list{
+                .list__item{
+                    .item__link{
+                        .link__img{
+                            width: 10vw;
+                        }
+                    }
+                }
+            }
+            .footer__span, .footer__paragraph{
+                text-align: center;
+            }
+        }
+    }
+}
